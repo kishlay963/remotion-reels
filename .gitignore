@@ -1,0 +1,5 @@
+node_modules/
+out/
+reel.zip
+whisper_output.json
+.claude/

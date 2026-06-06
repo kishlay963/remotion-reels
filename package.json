@@ -1,0 +1,26 @@
+{
+  "name": "tiktok-reel-generator",
+  "version": "1.0.0",
+  "description": "Generate TikTok reels with camera effects using Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render TikTokReel out/tiktok-reel.mp4",
+    "preview": "remotion preview",
+    "render-ui": "node render-server.js"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/media-parser": "^4.0.0",
+    "@remotion/renderer": "^4.0.0",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/web": "^0.0.164",
+    "typescript": "^5.5.0"
+  }
+}
