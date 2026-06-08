@@ -1,0 +1,255 @@
+{
+  "version": "1",
+  "assets": {
+    "video": "fourdances.mp4",
+    "broll": [
+      {
+        "id": "main1",
+        "filename": "1.png",
+        "label": "Main B-Roll 1"
+      },
+      {
+        "id": "main2",
+        "filename": "2.png",
+        "label": "Main B-Roll 2"
+      },
+      {
+        "id": "main3",
+        "filename": "3.png",
+        "label": "Main B-Roll 3"
+      },
+      {
+        "id": "main4",
+        "filename": "4.png",
+        "label": "Main B-Roll 4"
+      },
+      {
+        "id": "end_card",
+        "filename": "end.png",
+        "label": "End Card"
+      }
+    ]
+  },
+  "captions": {
+    "fontFamily": "'Arial Black', 'Helvetica Neue', sans-serif",
+    "fontSize": 82,
+    "activeColor": "#FFE600",
+    "inactiveColor": "#FFFFFF",
+    "strokeColor": "#000000",
+    "strokeWidth": 14,
+    "positionY": "72%",
+    "maxWidth": 900
+  },
+  "timeline": [
+    {
+      "type": "video",
+      "assetId": "video",
+      "startFrame": 0,
+      "endFrame": 65,
+      "scale": 1,
+      "isAudioSource": true
+    },
+    {
+      "type": "image",
+      "assetId": "main1",
+      "startFrame": 66,
+      "endFrame": 190,
+      "kenBurns": {
+        "startScale": 1,
+        "endScale": 1.14,
+        "driftX": 8,
+        "driftY": -6
+      },
+      "objectPosition": "40% 58%",
+      "colorOverlay": "rgba(255, 200, 100, 0.08)",
+      "fadeInFrames": 12
+    },
+    {
+      "type": "video",
+      "assetId": "video",
+      "startFrame": 191,
+      "endFrame": 320,
+      "scale": 1.02,
+      "yOffset": -8,
+      "isAudioSource": true
+    },
+    {
+      "type": "emoji",
+      "emoji": "😢",
+      "startFrame": 280,
+      "endFrame": 340,
+      "size": 180,
+      "positionX": "25%",
+      "positionY": "40%",
+      "fadeInFrames": 8,
+      "fadeOutFrames": 12,
+      "scalePop": true
+    },
+    {
+      "type": "image",
+      "assetId": "main2",
+      "startFrame": 321,
+      "endFrame": 430,
+      "kenBurns": {
+        "startScale": 1.15,
+        "endScale": 1.04,
+        "driftX": -9,
+        "driftY": 4
+      },
+      "objectPosition": "22% 35%",
+      "colorOverlay": "rgba(180, 220, 255, 0.07)",
+      "fadeInFrames": 10
+    },
+    {
+      "type": "video",
+      "assetId": "video",
+      "startFrame": 431,
+      "endFrame": 580,
+      "scale": 0.98,
+      "isAudioSource": true
+    },
+    {
+      "type": "emoji",
+      "emoji": "🔥",
+      "startFrame": 520,
+      "endFrame": 570,
+      "size": 160,
+      "positionX": "70%",
+      "positionY": "55%",
+      "fadeInFrames": 6,
+      "fadeOutFrames": 10,
+      "scalePop": true
+    },
+    {
+      "type": "image",
+      "assetId": "main1",
+      "startFrame": 581,
+      "endFrame": 680,
+      "kenBurns": {
+        "startScale": 1.18,
+        "endScale": 1.06,
+        "driftX": -5,
+        "driftY": 7
+      },
+      "objectPosition": "18% 20%",
+      "colorOverlay": "rgba(210, 190, 255, 0.06)"
+    },
+    {
+      "type": "video",
+      "assetId": "video",
+      "startFrame": 681,
+      "endFrame": 790,
+      "scale": 1.03,
+      "yOffset": -5,
+      "isAudioSource": true
+    },
+    {
+      "type": "emoji",
+      "emoji": "😍",
+      "startFrame": 850,
+      "endFrame": 910,
+      "size": 200,
+      "positionX": "35%",
+      "positionY": "30%",
+      "fadeInFrames": 10,
+      "fadeOutFrames": 15,
+      "scalePop": true
+    },
+    {
+      "type": "image",
+      "assetId": "main3",
+      "startFrame": 791,
+      "endFrame": 910,
+      "kenBurns": {
+        "startScale": 1.05,
+        "endScale": 1.19,
+        "driftX": 6,
+        "driftY": -8
+      },
+      "objectPosition": "55% 45%",
+      "colorOverlay": "rgba(255, 160, 80, 0.09)",
+      "fadeInFrames": 15
+    },
+    {
+      "type": "video",
+      "assetId": "video",
+      "startFrame": 911,
+      "endFrame": 1040,
+      "scale": 1,
+      "isAudioSource": true
+    },
+    {
+      "type": "image",
+      "assetId": "main4",
+      "startFrame": 1041,
+      "endFrame": 1150,
+      "kenBurns": {
+        "startScale": 1.12,
+        "endScale": 1.02,
+        "driftX": -3,
+        "driftY": 9
+      },
+      "objectPosition": "30% 70%",
+      "colorOverlay": "rgba(255, 230, 120, 0.08)"
+    },
+    {
+      "type": "video",
+      "assetId": "video",
+      "startFrame": 1151,
+      "endFrame": 1290,
+      "scale": 1,
+      "isAudioSource": true
+    },
+    {
+      "type": "emoji",
+      "emoji": "😂",
+      "startFrame": 1220,
+      "endFrame": 1290,
+      "size": 170,
+      "positionX": "65%",
+      "positionY": "45%",
+      "fadeInFrames": 8,
+      "fadeOutFrames": 12,
+      "scalePop": true
+    },
+    {
+      "type": "image",
+      "assetId": "main2",
+      "startFrame": 1291,
+      "endFrame": 1410,
+      "kenBurns": {
+        "startScale": 1.08,
+        "endScale": 1.21,
+        "driftX": 7,
+        "driftY": -5
+      },
+      "objectPosition": "48% 25%",
+      "colorOverlay": "rgba(200, 255, 180, 0.06)",
+      "fadeInFrames": 12
+    },
+    {
+      "type": "video",
+      "assetId": "video",
+      "startFrame": 1411,
+      "endFrame": 1580,
+      "scale": 1.01,
+      "isAudioSource": true
+    },
+    {
+      "type": "image",
+      "assetId": "end_card",
+      "startFrame": 1581,
+      "endFrame": 1784,
+      "kenBurns": {
+        "startScale": 1.02,
+        "endScale": 1.12,
+        "driftX": 0,
+        "driftY": -6
+      },
+      "objectPosition": "center center",
+      "colorOverlay": "rgba(255, 215, 110, 0.10)",
+      "fadeInFrames": 30,
+      "fadeOutFrames": 20
+    }
+  ]
+}
